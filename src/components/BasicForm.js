@@ -20,7 +20,6 @@ const BasicForm = () => {
         }}
         onSubmit={(values, { resetForm }) => {
           submitHandler(values);
-          // resetForm({values:[ todo: ""] });
         }}
       >
         {({ values, handleChange, handleSubmit, isSubmitting }) => (
